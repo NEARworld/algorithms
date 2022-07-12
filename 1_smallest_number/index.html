@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>출력 결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(a, b, c) {
+        let answer;
+        if (a < b && a < c) answer = a;
+        else if (b < a && b < c) answer = b;
+        else answer = c;
+        console.log(answer);
+        return answer;
+      }
+      solution(100, 110, 111);
+    </script>
+  </body>
+</html>

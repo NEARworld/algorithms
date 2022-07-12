@@ -5,10 +5,7 @@
   <body>
     <script>
       function solution(n) {
-        let answer = Math.trunc(n / 12);
-        let remainder = n % 12;
-        if (remainder > 0) answer++;
-
+        let answer = Math.ceil(n / 12);
         return answer;
       }
       console.log(solution(61));

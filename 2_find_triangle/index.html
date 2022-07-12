@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>출력 결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(a, b, c) {
+        let answer, max;
+        if (a < b) max = b;
+        else max = a;
+        if (max < c) max = c;
+
+        if (max < a + b + c - max) answer = true;
+        else answer = false;
+
+        console.log(answer);
+        return answer;
+      }
+      solution(7, 5, 11);
+    </script>
+  </body>
+</html>

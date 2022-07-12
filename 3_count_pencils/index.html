@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>출력 결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(n) {
+        let answer = Math.trunc(n / 12);
+        let remainder = n % 12;
+        if (remainder > 0) answer++;
+
+        return answer;
+      }
+      console.log(solution(61));
+    </script>
+  </body>
+</html>

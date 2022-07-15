@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>출력 결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(s, t) {
+        let answer = s.split("").filter((word) => word === t).length;
+        return answer;
+      }
+      let str = "COMPUTERPROGRAMMING";
+      console.log(solution(str, "R"));
+    </script>
+  </body>
+</html>
